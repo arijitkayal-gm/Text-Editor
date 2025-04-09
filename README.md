@@ -4,15 +4,15 @@ A simple and efficient text editor built with React.js, offering essential text 
 
 ##  Features
 
-- **Rich Text Formatting:** Apply bold, italic, and underline styles to your text.
+- **Text Formatting:** Apply Uppercase, Lowercase, Capitalcase and Inversecase to your text.
 - **User-Friendly Interface:** Intuitive design for easy navigation and editing.
 - **Real-Time Preview:** Instantly see the formatted text as you type.
 
 ##  Live Demo
 
-Experience the Text Editor in action: [Live Demo](#)
+Experience the Text Editor in action: [Live Demo](https://arijitkayal-gm.github.io/Text-Editor/)
 
-*(Replace `#` with the URL where the project is hosted, if available.)*
+
 
 ##  Screenshots
 
@@ -20,7 +20,6 @@ Experience the Text Editor in action: [Live Demo](#)
 
 *Screenshot of the Text Editor interface.*
 
-*(Ensure you have a `screenshots` folder in your project directory containing the `editor_interface.png` image.)*
 
 ##  Technologies Used
 
