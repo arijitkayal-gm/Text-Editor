@@ -176,15 +176,21 @@
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    max-width: 700px;
+    max-width: 800px;
     padding: 1rem;
+    gap: 1rem;
 }
 
 .find-replace input {
     padding: 10px;
     border-radius: 5px;
-    font-size: 1.5vh;
+    font-size: clamp(16px, 1.5vh, 24px);;
     transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.find-replace input:focus{
+    outline: none;
+    box-shadow: 5px 5px 0 0 #000000a1;
 }
 
 .show {
@@ -199,13 +205,13 @@
 
 .button {
     color: var(--primary-color);
-    font-size: 1.5vh;
+    font-size: clamp(15px, 1.5vh, 20px);
     background: #353535a1;
     border: 0.1px solid var(--primary-color);
     border-radius: 5px;
     cursor: pointer;
     padding: 10px;
-    box-shadow: 0.25vw 0.35vw 0px #000000a1;
+    box-shadow: 7px 9px 0px #000000a1;
     transition: all 0.1s ease-in-out;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
