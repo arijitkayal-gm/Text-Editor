@@ -38,6 +38,10 @@ A sleek and functional web-based text editor with light/dark themes, toast notif
 - CSS Modules or Vanilla CSS
 - HTML5 SpeechSynthesis API
 
+## 🌐 Live
+
+![Check out the live app here](https://github.com/arijitkayal-gm/Text-Editor.git)
+
 ## 📦 Getting Started
 
 ```bash
